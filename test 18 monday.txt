@@ -1,0 +1,292 @@
+Q=1
+ans=#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int a=5,b=7;
+    
+}
+**********************************************************************
+Q=2
+ANS=#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int a,b;
+    cout<<"enter the value of a ";
+    cin>>a;
+    cout<<"enter the value of b ";
+    cin>>b;
+    int add=a+b;
+    cout<<"add"<<add;
+    int sub=a-b;
+    cout<<"sub"<<sub;
+    int multi=a*b;
+    cout<<"multi"<<multi;
+    
+}
+**********************************************************************
+Q=3
+ANS=
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int a,b,ans;
+    cout<<"enter the value of a ";
+    cin>>a;
+    cout<<"enter the value of b ";
+    cin>>b;
+    ans=a+b;
+    cout<<"ans"<<ans;
+}
+**********************************************************************
+Q=4
+ANS=
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+   int counter=10;
+   counter++;
+   counter--;
+   cout<<"value of counter"<<counter;
+   
+}
+**********************************************************************
+Q=5
+ANS=#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int firstinteger, secondinteger;
+    cout<<"Enter the first integer: ";
+    cin>>firstinteger;
+    cout<<"Enter the second integer: ";
+    cin>>secondinteger;
+    if (firstinteger > secondinteger) {
+        cout<<firstinteger<<" is greater than "<<secondinteger;
+    } else if (firstinteger<secondinteger) {
+        cout<<firstinteger<<"is less than "<<secondinteger;
+    } else {
+        cout<<firstinteger<<"is equal to "<<secondinteger;
+    }
+
+    return 0;
+}
+*********************************************************************
+Q=6
+ANS=#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+   int number;
+    cout << "Enter a number: ";
+    cin >> number;
+    if (number > 10 && number < 20) {
+        cout << number << " is greater than 10 and less than 20." ;
+    } else {
+        cout << number << " is not greater than 10 and less than 20." ;
+    }
+}
+*****************************************************************************
+Q=7
+ANS=
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+   int a,number;
+   cout<<"enter the value of a ";
+   cin>>a;
+   if (number % 2 == 0);
+        cout<<number<<"is even";
+    } else{ 
+        cout<<number<<"is odd";
+    }
+}
+*************************************************************************************
+Q=8
+ANS=#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int a = 5, b = 10;
+    cout<<"Before swapping: a="<<a<<",b="<<b;
+    a = a + b;
+    b = a - b;
+    a = a - b;
+    cout<<"After swapping:a="<<a<<",b="<<b;
+}
+
+*************************************************************************************
+Q=9
+ANS=#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+   int a,b;
+   cout<<"enter the value of a ";
+   cin>>a;
+   cout<<"enter the value of b ";
+   cin>>b;
+   if(a<b){
+   cout<<"big"<<b;
+   cout<<"small"<<a;
+}
+else{
+     cout<<"big"<<a;
+   cout<<"small"<<b;
+}
+  
+}
+************************************************************************************
+Q=10
+ANS=
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int p=5;
+    int q=3;
+    int r=2;
+    int result=p+(q*r)-p;
+    cout<<"result:"<<result;
+}
+*************************************************************************************
+Q=11
+ANS=
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int number;
+    cout<<"Enter a positive num: ";
+    cin>>number;
+    while(number<=0)
+    {
+        cout<<"enter a positive num: ";
+        cin>>number;
+    }
+    cout<<"entered a positive num:"<<number;
+
+}
+*************************************************************************************
+Q=12
+ANS=
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    float a,b;
+    cout<<"enter the value of a ";
+    cin>>a;
+    cout<<"enter the value of b ";
+    cin>>b;
+    float add=a+b;
+    cout<<"add"<<add;
+    float mul=a*b;
+    cout<<"mul"<<mul;
+    float sub=a-b;
+    cout<<"sub"<<sub;
+    float divi=a/b;
+    cout<<"divi"<<divi;
+}
+**************************************************************************************
+Q=13
+ANS=
+*************************************************************************************
+Q=14
+ANS=
+******************************************************************************************
+Q=15
+ANS=
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    string firstName,lastName;
+    cout << "Enter your first name: ";
+    cin >> firstName;
+    cout << "Enter your last name: ";
+    cin >> lastName;
+    string fullName = firstName + " " + lastName;
+    cout<<"Full Name: "<<fullName;
+
+}
+******************************************************************************************
+Q=16
+ANS=
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    //formula ×(base1+base2)×height
+    double base1,base2,height;
+    cout<< "Enter the length of the first base: ";
+    cin>>base1;
+    cout<< "Enter the length of the second base: ";
+    cin>>base2;
+    cout << "Enter the height: ";
+    cin>>height;
+    double area = 0.5 *(base1+base2)*height;
+    cout<<"The area of the trapezoid is: "<<area;
+}
+******************************************************************************************
+Q=17
+ANS=
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    //formula: F = (C * 9/5) + 32
+    double celsius, fahrenheit;
+    cout<<"Enter temperature in Celsius: ";
+    cin>>celsius;
+    fahrenheit=(celsius*9.0/5.0)+32.0;
+    cout<<"Equivalent temperature in Fahrenheit: "<<fahrenheit;
+}
+********************************************************************************************
+Q=18
+ANS=
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    double principal, rate, time, compoundInterest;
+    cout<<"Enter the principal amount: ";
+    cin>>principal;
+    cout << "Enter the annual interest rate (as a decimal): ";
+    cin >> rate;
+    cout << "Enter the time in years: ";
+    cin>>time;
+    compoundInterest = principal * pow((1 + rate), time) - principal;
+    cout << "Compound Interest: " << compoundInterest;
+}
+********************************************************************************************
+Q=19
+ANS=#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    double units, bill;
+    cout<<"Enter the number of units consumed: ";
+    cin>>units;
+    double ratePerUnit =8;
+    bill = units * ratePerUnit;
+    cout<<"Electricity Bill:"<<bill;
+
+}
+*******************************************************************************************
+Q=20
+AMS=#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    double weight,height,bmi;
+    cout<<"enter the weight in kilogram ";
+    cin>>weight;
+    cout<<"enter the height in miter ";
+    cin>>height;
+    bmi=weight/(height*height);
+    cout<<"your bmi is "<<bmi ;
